@@ -3,6 +3,6 @@ import { getInventory } from '../controllers/inventoryController.js';
 
 const router = express.Router();
 
-router.get('/api/inventory/:stationId', getInventory);
+router.get('/api/inventory/:id', getInventory);
 
 export default router;

@@ -4,6 +4,7 @@ import connectDB from './config/db.js';
 import tradeRoutes from './routes/tradeRoutes.js'
 import cargoRoutes from './routes/cargoRoutes.js'
 import inventoryRoutes from './routes/inventoryRoutes.js'
+import updateRoutes from './routes/updateRoutes.js';
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ app.use(express.json());
 app.use(tradeRoutes);
 app.use(cargoRoutes);
 app.use(inventoryRoutes);
+app.use(updateRoutes);
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
