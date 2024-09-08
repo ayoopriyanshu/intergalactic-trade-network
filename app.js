@@ -1,6 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
+import tradeRoutes from './routes/tradeRoutes.js'
+import cargoRoutes from './routes/cargoRoutes.js'
+import inventoryRoutes from './routes/inventoryRoutes.js'
 
 dotenv.config();
 
@@ -10,7 +13,11 @@ const app = express();
 
 app.use(express.json());
 
-app.use((err, rq, res, nest) => {
+app.use(tradeRoutes);
+app.use(cargoRoutes);
+app.use(inventoryRoutes);
+
+app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Internal server error');
 });
