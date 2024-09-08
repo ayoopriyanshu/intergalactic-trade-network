@@ -37,7 +37,7 @@ You can test the following endpoints:
 
 - **GET**: /api/updates/real-time - Retrieve real-time updates on trade and cargo status.
 
-### Installation locally
+### Install locally
 
 1. **Clone the Repository:**
 
