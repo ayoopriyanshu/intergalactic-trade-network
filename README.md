@@ -1,4 +1,4 @@
-# Intergalactic Trade Network (Assignment)
+# Intergalactic Trade Network
 
 ## Project Overview
 
