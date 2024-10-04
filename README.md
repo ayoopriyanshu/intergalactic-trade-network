@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Intergalactic Trade Network is a backend system designed to handle trade transactions, manage space cargo, and track space station inventory. It supports high-throughput data, provides real-time updates on trade activities across multiple planets and space stations, and includes a real-time analytics dashboard.
+The Trade Network is a backend system designed to handle trade transactions, manage space cargo, and track space station inventory. It supports high-throughput data, provides real-time updates on trade activities across multiple planets and space stations, and includes a real-time analytics dashboard.
 
 ## Flow chart
 
