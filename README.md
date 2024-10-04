@@ -1,4 +1,4 @@
-# Intergalactic Trade Network
+# Trade Network API
 
 ## Project Overview
 
